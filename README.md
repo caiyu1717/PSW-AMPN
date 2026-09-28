@@ -1,5 +1,7 @@
 # PSW-AMPN
 **Abstract**—Existing prototype learning methods for open-set recognition (OSR) often use a fixed number of prototypes to represent each class, which struggle to model the inherent intra class variations widely existing in practical scenarios. This limitation is particularly pronounced in medical image applications, where high intra-class heterogeneity makes accurate OSR challenging. To address this issue, we propose a novel framework called Adaptive Multi-Prototype Network with Pretrained Swin Transformer (PSW-AMPN) for OSR on medical images. Specifically, a sparse gated attention module is devised to compute attention scores based on prototype–sample relations, thereby adaptively suppressing redundant sub-prototypes and selectively activating discriminative ones for each class in an end to-end optimization process. By jointly optimizing classification loss and the regularization for open space risk based on multiple prototypes, PSW-AMPN effectively captures complex intra-class structures and enhances class discriminability. Furthermore, PSW-AMPN uses a Pretrained Swin Transformer and a lightweight projector as feature extractor to effectively capture both local and global features. Extensive experiments demonstrate that our approach significantly outperforms existing baselines and achieves state-of-the-art performance on multiple medical image OSR tasks.
+<img width="1622" height="553" alt="image" src="https://github.com/user-attachments/assets/53423b46-eea9-430c-9cea-37cc54ffa3f0" />
+
 
 # Requirements
 First, install Python 3.9. Then:
